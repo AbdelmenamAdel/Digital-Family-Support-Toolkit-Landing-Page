@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مجموعة أدوات الدعم الأسري الرقمية</title>
+    <meta name="description"
+        content="احصل على الموارد الأساسية وأدلة الفيديو لمجموعة أدوات الدعم الأسري الرقمية. دعم العائلات بأدوات الدفاع عن الذات.">
+
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-overlay"></div>
+
+    <div class="container">
+        <!-- Top Nav / Uni Badge -->
+        <nav class="top-nav reveal">
+            <div class="uni-logo">
+                <i class="fas fa-university"></i>
+                <span>كلية التمريض • FoN</span>
+            </div>
+            <div class="logo-icon"
+                style="width: 40px; height: 40px; font-size: 1.2rem; background: var(--primary); border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                <i class="fas fa-users-viewfinder"></i>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="hero reveal">
+            <span class="badge">مجموعة أدوات الدعم الأسري الرقمية</span>
+            <h1>قم بتمكين رحلة الصحة النفسية<br>لعائلتك</h1>
+            <p>يتأثر 24 مليون شخص بالفصام عالمياً. لا ينبغي للعائلات أن تخوض هذه الرحلة بدون التوجيه الصحيح.</p>
+            <div class="cta-group">
+                <button class="btn btn-primary" onclick="scrollToSection('assessment-section')">
+                    ابدأ التعلم الآن <i class="fas fa-arrow-left"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Why This Matters Stats -->
+        <section class="stats-grid reveal">
+            <div class="stat-card">
+                <span class="stat-number">+24 مليون</span>
+                <span class="stat-label">متأثر عالمياً</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">%70</span>
+                <span class="stat-label">انخفاض معدل الانتكاس <br>(مع الدعم الأسري)</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">توجيه رقمي</span>
+            </div>
+        </section>
+
+        <!-- How it Achieves the Goal -->
+        <section class="goal-achievement reveal" style="margin-bottom: 4rem;">
+            <div class="section-title">
+                <h2>كيف تحقق هذه المنصة أهداف المشروع؟</h2>
+                <p>الديجيتال أو التحول الرقمي يحقق هدفنا في دعم العائلة من خلال ثلاثة ركائز أساسية:</p>
+            </div>
+            <div class="goals-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                <div class="goal-card" style="background: var(--surface); padding: 1.5rem; border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); text-align: center;">
+                    <div style="color: var(--primary); font-size: 2.5rem; margin-bottom: 1rem;"><i class="fas fa-mobile-screen-button"></i></div>
+                    <h3 style="margin-bottom: 0.5rem; color: var(--text);">إمكانية الوصول 24/7</h3>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">توفير الدعم والمعلومات بشكل مستمر في أي وقت ومكان، مما يكسر حاجز العزلة الذي قد تشعر به العائلة ويقدم المساعدة عند الحاجة الفورية.</p>
+                </div>
+                <div class="goal-card" style="background: var(--surface); padding: 1.5rem; border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); text-align: center;">
+                    <div style="color: var(--primary); font-size: 2.5rem; margin-bottom: 1rem;"><i class="fas fa-list-check"></i></div>
+                    <h3 style="margin-bottom: 0.5rem; color: var(--text);">تقييم المعرفة وتطويرها</h3>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">بفضل التقييم القبلي والبعدي، تستطيع العائلة قياس مدى تطور وعيها وكفاءتها في الدفاع عن حقوق المريض وفهم حالته بطريقة عملية.</p>
+                </div>
+                <div class="goal-card" style="background: var(--surface); padding: 1.5rem; border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border); text-align: center;">
+                    <div style="color: var(--primary); font-size: 2.5rem; margin-bottom: 1rem;"><i class="fas fa-bolt"></i></div>
+                    <h3 style="margin-bottom: 0.5rem; color: var(--text);">التدخل السريع والعملي</h3>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">تحويل النصائح الطبية المعقدة إلى بطاقات تفاعلية سريعة (مثل التعامل مع الهلوسة والأزمات) لتقديم توجيهات قابلة للتنفيذ في لحظات التوتر.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- User Journey -->
+        <section class="reveal">
+            <div class="section-title">
+                <h2>طريقك للحصول على الدعم</h2>
+                <p>اتبع هذه الخطوات الأربع لفتح وإتقان مجموعة الأدوات.</p>
+            </div>
+            <div class="journey-steps">
+                <div class="step active" id="step-1">
+                    <div class="step-icon"><i class="fas fa-clipboard-question"></i></div>
+                    <span class="step-label">الاختبار القبلي</span>
+                </div>
+                <div class="step" id="step-2">
+                    <div class="step-icon"><i class="fas fa-book-open"></i></div>
+                    <span class="step-label">تعلم</span>
+                </div>
+                <div class="step" id="step-3">
+                    <div class="step-icon"><i class="fas fa-brain"></i></div>
+                    <span class="step-label">تدرب</span>
+                </div>
+                <div class="step" id="step-4">
+                    <div class="step-icon"><i class="fas fa-chart-line"></i></div>
+                    <span class="step-label">نمو</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Assessment Section -->
+        <section id="assessment-section" class="assessment-container reveal">
+            <div id="quiz-intro">
+                <h2>التقييم القبلي</h2>
+                <p>قم بإجراء اختبار سريع مدته دقيقتان لتقييم معرفتك الحالية وفتح الموارد.</p>
+                <button class="btn btn-primary" onclick="startQuiz()">
+                    ابدأ التقييم
+                </button>
+            </div>
+
+            <div id="quiz-content" style="display: none;">
+                <div class="progress-container">
+                    <div id="progress" class="progress-bar"></div>
+                </div>
+                <div id="question-container">
+                    <h3 id="question-text"></h3>
+                    <div id="options-container" class="options-grid"></div>
+                </div>
+            </div>
+
+            <div id="quiz-results" style="display: none; text-align: center;">
+                <div class="result-icon" style="font-size: 3.5rem; color: var(--accent); margin-bottom: 1rem;"><i
+                        class="fas fa-check-circle"></i></div>
+                <h2 id="result-title">عمل رائع!</h2>
+
+                <div id="result-details" class="result-details" style="display: none;">
+                    <!-- Dynamically populated -->
+                </div>
+
+                <p id="result-text" style="margin-bottom: 2rem; font-size: 1.1rem; color: var(--text-muted);"></p>
+                <button class="btn btn-primary" id="result-btn" onclick="closeResults()">
+                    احصل على الدعم الآن <i class="fas fa-arrow-left"></i>
+                </button>
+            </div>
+        </section>
+
+        <!-- Resources & Practice (Hidden initially) -->
+        <div id="main-content" class="locked">
+            <!-- Video Section -->
+            <section class="video-section reveal">
+                <div class="section-title">
+                    <h2>شاهد الدليل</h2>
+                    <p>دليل إرشادي شامل للدفاع الذاتي للأسرة.</p>
+                </div>
+                <div class="video-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ms3kdw2ldrM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p style="text-align: center; margin-top: 10px; font-size: 0.9rem; color: var(--text-muted); font-weight: 600;">فيديو مبسط حول كيفية التعامل مع مريض الفصام</p>
+                </div>
+            </section>
+
+            <!-- Guidance Cards -->
+            <section class="reveal">
+                <div class="section-title">
+                    <h2>أدوات الدعم العملي</h2>
+                    <p>توجيه سريع للحظات الصعبة.</p>
+                </div>
+                <div class="cards-grid">
+                    <div class="guide-card" onclick="openModal('hallucination')">
+                        <i class="fas fa-eye-slash main-icon"></i>
+                        <h3>توجيهات للتعامل مع الهلوسة</h3>
+                        <p>كيفية دعم شخص عزيز عندما يرى أو يسمع أشياء غير موجودة.</p>
+                        <span class="learn-more">افتح الدليل <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                    <div class="guide-card" onclick="openModal('crisis')">
+                        <i class="fas fa-house-medical-circle-exclamation main-icon"></i>
+                        <h3>دعم الأزمات</h3>
+                        <p>خطوات قابلة للتنفيذ يمكن اتخاذها أثناء أزمة صحة نفسية حادة أو طوارئ.</p>
+                        <span class="learn-more">عرض الخطوات <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resources -->
+            <section class="reveal" style="text-align: center; margin-bottom: 5rem;">
+                <div class="section-title">
+                    <h2>تحميل الموارد</h2>
+                </div>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="data/family_guide.pdf" class="btn btn-outline" download>
+                        <i class="far fa-file-pdf"></i> دليل الأسرة PDF
+                    </a>
+                    <a href="data/advocacy_toolkit.pptx" class="btn btn-outline" download>
+                        <i class="far fa-file-powerpoint"></i> عرض الدفاع الذاتي PPT
+                    </a>
+                    <button class="btn btn-primary" onclick="resetQuiz(true)">
+                        قم بإجراء التقييم البعدي <i class="fas fa-redo"></i>
+                    </button>
+                </div>
+            </section>
+        </div>
+
+        <!-- Emergency Support Section -->
+        <section class="emergency-section reveal">
+            <div class="section-title">
+                <h2 style="color: #ef4444;"><i class="fas fa-triangle-exclamation"></i> جهات اتصال الدعم في حالات الطوارئ</h2>
+                <p>إذا كنت أنت أو أحد أفراد أسرتك في خطر داهم، يرجى التواصل مع موارد الأزمات هذه.</p>
+            </div>
+            <div class="emergency-grid">
+                <div class="emergency-card">
+                    <i class="fas fa-phone-volume"></i>
+                    <h3>طوارئ الطب النفسي</h3>
+                    <p>التدخل النفسي الفوري وإدارة الأزمات.</p>
+                    <a href="tel:937" class="emergency-link"><i class="fas fa-phone"></i> اتصل بـ 937</a>
+                </div>
+                <div class="emergency-card">
+                    <i class="fas fa-heart-pulse"></i>
+                    <h3>الخط الساخن للصحة النفسية</h3>
+                    <p>استشارات ودعم نفسي على مدار الساعة.</p>
+                    <a href="tel:920033360" class="emergency-link"><i class="fas fa-phone"></i> اتصل بـ 920033360</a>
+                </div>
+                <div class="emergency-card">
+                    <i class="fas fa-hospital"></i>
+                    <h3>مستشفى الأزمات</h3>
+                    <p>مستشفى الأمل للطب النفسي</p>
+                    <a href="tel:997" class="emergency-link"><i class="fas fa-ambulance"></i> الإسعاف: 997</a>
+                </div>
+            </div>
+            <div class="emergency-instructions">
+                <h4><i class="fas fa-info-circle"></i> تعليمات الطوارئ</h4>
+                <ul>
+                    <li><strong>ضمان السلامة:</strong> السلامة الجسدية هي الأولوية. قم بإزالة أي أشياء ضارة.
+                    </li>
+                    <li><strong>ابق هادئاً:</strong> تحدث بصوت واضح وهادئ وغير مهدد.</li>
+                    <li><strong>لا تجادل:</strong> تجنب الجدال حول الهلوسة أو الأوهام.</li>
+                    <li><strong>اطلب المساعدة:</strong> اطلب المساعدة المهنية فوراً إذا تصاعد الموقف.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- References -->
+        <section class="references reveal">
+            <h4>المراجع والمعايير</h4>
+            <ul>
+                <li>استناداً إلى معايير تشخيص DSM-5 للفصام.</li>
+                <li>تقارير الصحة النفسية لمنظمة الصحة العالمية (WHO).</li>
+                <li>كلية التمريض - قسم تمريض الصحة النفسية والعقلية.</li>
+                <li>إرشادات دعم الأسرة من التحالف الوطني للأمراض النفسية (NAMI).</li>
+            </ul>
+        </section>
+
+        <footer class="footer reveal">
+            <p>&copy; 2026 مجموعة أدوات الدعم الأسري الرقمية. مصممة للدفاع عن الذات والتثقيف.</p>
+
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div id="guide-modal" class="modal" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script>
+        // Failsafe: Add js-enabled immediately
+        document.documentElement.classList.add('js-enabled');
+
+        const questions = [
+            {
+                en: "How confident are you in advocating for your family's needs?",
+                ar: "هل تحس إنك قادر تطلب حقوق أسرتك وتدافع عنها؟",
+                options: [
+                    { en: "Not at all", ar: "صعب جداً", score: 1 },
+                    { en: "Somewhat", ar: "أقدر إلى حد ما", score: 3 },
+                    { en: "Very confident", ar: "واثق جداً", score: 5 }
+                ]
+            },
+            {
+                en: "Do you know the DSM-5 criteria for mental health crisis?",
+                ar: "هل تقدر تميز العلامات اللي تدل إن مريضك يمر بأزمة نفسية؟",
+                options: [
+                    { en: "No", ar: "لا، ما أعرفها", score: 1 },
+                    { en: "I have some ideas", ar: "عندي فكرة بسيطة", score: 3 },
+                    { en: "Yes, I know exactly", ar: "نعم، أعرفها بوضوح", score: 5 }
+                ]
+            },
+            {
+                en: "How often do you use digital tools for self-advocacy?",
+                ar: "هل تستخدم تطبيقات أو مواقع عشان تفهم حالة مريضك بشكل أفضل؟",
+                options: [
+                    { en: "Never", ar: "أبداً", score: 1 },
+                    { en: "Occasionally", ar: "أحياناً", score: 3 },
+                    { en: "Frequently", ar: "كثيراً", score: 5 }
+                ]
+            },
+            {
+                en: "Are you familiar with your family member's legal rights in healthcare?",
+                ar: "هل تعرف حقوق مريضك لما يراجع المستشفيات أو المراكز الصحية؟",
+                options: [
+                    { en: "Not at all", ar: "لا، ما أعرفها", score: 1 },
+                    { en: "Somewhat", ar: "أعرف بعضها", score: 3 },
+                    { en: "Very familiar", ar: "أعرفها بشكل ممتاز", score: 5 }
+                ]
+            },
+            {
+                en: "Do you know how to identify early warning signs of a relapse?",
+                ar: "هل تقدر تلاحظ العلامات اللي تبين إن مريضك ممكن يتعب مرة ثانية (ينتكس)؟",
+                options: [
+                    { en: "No", ar: "لا", score: 1 },
+                    { en: "I know a few", ar: "أعرف بعض العلامات", score: 3 },
+                    { en: "Yes, definitely", ar: "نعم، بالتأكيد", score: 5 }
+                ]
+            },
+            {
+                en: "How effectively can you communicate with the treatment team?",
+                ar: "كيف تشوف تواصلك مع الدكاترة والأخصائيين اللي يعالجون مريضك؟",
+                options: [
+                    { en: "Poorly", ar: "صعب وغير واضح", score: 1 },
+                    { en: "Moderately", ar: "متوسط", score: 3 },
+                    { en: "Very effectively", ar: "ممتاز وواضح جداً", score: 5 }
+                ]
+            },
+            {
+                en: "Are you aware of local or online support groups for families?",
+                ar: "هل تعرف قروبات أو مجموعات دعم لأهالي المرضى (سواء حضورياً أو بالإنترنت)؟",
+                options: [
+                    { en: "No", ar: "لا ما أعرف", score: 1 },
+                    { en: "I've heard of some", ar: "سمعت عنها", score: 3 },
+                    { en: "Yes, I'm a member/aware", ar: "نعم، وأتابعها", score: 5 }
+                ]
+            },
+            {
+                en: "How confident are you in setting healthy boundaries while caregiving?",
+                ar: "هل تقدر توازن بين اهتمامك بمريضك واهتمامك بصحتك النفسية وحياتك الخاصة؟",
+                options: [
+                    { en: "Not confident", ar: "صعب جداً", score: 1 },
+                    { en: "Developing", ar: "أحاول قدر الإمكان", score: 3 },
+                    { en: "Highly confident", ar: "نعم، أقدر أوازن", score: 5 }
+                ]
+            },
+            {
+                en: "Do you have a pre-planned crisis management strategy?",
+                ar: "هل عندكم خطة واضحة في البيت تتفقون عليها لو صارت أزمة نفسية طارئة؟",
+                options: [
+                    { en: "No plan", ar: "لا، ما عندنا خطة", score: 1 },
+                    { en: "Drafted plan", ar: "عندنا أفكار بس مو مرتبة", score: 3 },
+                    { en: "Solid written plan", ar: "نعم، عندنا خطة واضحة", score: 5 }
+                ]
+            },
+            {
+                en: "How well can you explain your family's needs to social services?",
+                ar: "هل تحس إنك قادر تشرح حالة مريضك واحتياجاته للجهات اللي تقدم خدمات مساندة؟",
+                options: [
+                    { en: "Difficult", ar: "أواجه صعوبة كبيرة", score: 1 },
+                    { en: "Somewhat okay", ar: "أقدر إلى حد ما", score: 3 },
+                    { en: "Very clearly", ar: "أقدر أشرح بوضوح تام", score: 5 }
+                ]
+            }
+        ];
+
+        const guides = {
+            hallucination: {
+                title: "توجيهات للتعامل مع الهلوسة",
+                content: `
+                    <ul>
+                        <li><strong>ابق هادئاً:</strong> حضورك الهادئ يساعد في تقليل توترهم.</li>
+                        <li><strong>التحقق من المشاعر:</strong> قل "أنا أتفهم أن هذا مخيف بالنسبة لك" دون إثبات الهلوسة نفسها.</li>
+                        <li><strong>تجنب الجدال:</strong> لا تحاول إقناعهم بأن الهلوسة ليست حقيقية.</li>
+                        <li><strong>استخدم التشتيت:</strong> قم بتوجيه انتباههم إلى الموسيقى أو الضوء أو نشاط بسيط.</li>
+                        <li><strong>اجعل التواصل بسيطاً:</strong> استخدم جملاً قصيرة وواضحة ومباشرة.</li>
+                    </ul>
+                `
+            },
+            crisis: {
+                title: "خطة دعم الأزمات",
+                content: `
+                    <ul>
+                        <li><strong>السلامة أولاً:</strong> إذا كان هناك خطر مباشر، اتصل بخدمات الطوارئ.</li>
+                        <li><strong>تقليل المحفزات:</strong> خفف الأضواء، وأغلق التلفزيون، وحافظ على هدوء البيئة.</li>
+                        <li><strong>تقليل عدد الأشخاص:</strong> احتفظ بعدد الأشخاص في الغرفة إلى الحد الأدنى.</li>
+                        <li><strong>اتبع الخطة:</strong> استخدم معلومات الاتصال الخاصة بطبيبهم النفسي أو المعالج على الفور.</li>
+                        <li><strong>تجنب اللمس الجسدي:</strong> لا تلمس الشخص إلا عند الضرورة، فقد يُنظر إلى ذلك كتهديد.</li>
+                    </ul>
+                `
+            }
+        };
+
+        let currentQuestionIndex = 0;
+        let totalScore = 0;
+        let isPostAssessment = false;
+        let preScore = 0;
+
+        function startQuiz() {
+            document.getElementById('quiz-intro').style.display = 'none';
+            document.getElementById('quiz-content').style.display = 'block';
+            showQuestion();
+        }
+
+        function showQuestion() {
+            const q = questions[currentQuestionIndex];
+            const progress = ((currentQuestionIndex) / questions.length) * 100;
+            document.getElementById('progress').style.width = `${progress}%`;
+
+            document.getElementById('question-text').innerHTML = q.ar;
+
+            const optionsContainer = document.getElementById('options-container');
+            optionsContainer.innerHTML = '';
+
+            q.options.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.innerHTML = opt.ar;
+                btn.onclick = function () { selectOption(opt.score, this); };
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function selectOption(score, btnElement) {
+            // Micro-interaction for selected option
+            btnElement.style.background = 'var(--primary)';
+            btnElement.style.borderColor = 'var(--primary-light)';
+            btnElement.style.color = '#fff';
+
+            // Disable all buttons to prevent double click
+            const buttons = document.querySelectorAll('.option-btn');
+            buttons.forEach(b => b.style.pointerEvents = 'none');
+
+            setTimeout(() => {
+                totalScore += score;
+                currentQuestionIndex++;
+
+                if (currentQuestionIndex < questions.length) {
+                    showQuestion();
+                } else {
+                    finishQuiz();
+                }
+            }, 300);
+        }
+
+        function finishQuiz() {
+            document.getElementById('quiz-content').style.display = 'none';
+            document.getElementById('quiz-results').style.display = 'block';
+            document.getElementById('progress').style.width = '100%';
+
+            const maxScore = questions.length * 5;
+
+            if (!isPostAssessment) {
+                preScore = totalScore;
+                document.getElementById('result-title').innerText = "تم إكمال الخطوة 1!";
+                document.getElementById('result-text').innerText = `لقد سجلت ${totalScore} من أصل ${maxScore}. انتهى التقييم القبلي. لقد قمت بفتح مجموعة الأدوات وبطاقات الممارسة.`;
+                document.getElementById('result-details').style.display = 'none';
+                document.getElementById('result-btn').innerHTML = 'احصل على الدعم الآن <i class="fas fa-arrow-left"></i>';
+                unlockResources();
+                updateJourney(2);
+            } else {
+                const improvement = ((totalScore - preScore) / maxScore) * 100;
+                document.getElementById('result-title').innerText = "تم قياس النمو!";
+
+                let message = '';
+                if (improvement > 0) {
+                    message = `<span style="color:var(--accent); font-weight:700; font-size: 1.2rem;">تقدم مذهل! تحسنت معرفتك بنسبة ${improvement.toFixed(0)}%.</span><br><br>استمر في استخدام هذه الموارد لدعم عائلتك.`;
+                } else if (improvement === 0) {
+                    message = `<span style="color:var(--primary-light); font-weight:700; font-size: 1.2rem;">لقد حافظت على مستوى معرفتك!</span><br><br>الممارسة المستمرة هي مفتاح الدفاع الفعال.`;
+                } else {
+                    message = `<span style="color:var(--secondary-light); font-weight:700; font-size: 1.2rem;">استمر في الممارسة!</span><br><br>راجع المواد مرة أخرى لتعزيز معرفتك.`;
+                }
+
+                document.getElementById('result-text').innerHTML = message;
+
+                // Show Pre vs Post comparison
+                document.getElementById('result-details').style.display = 'flex';
+                document.getElementById('result-details').innerHTML = `
+                    <div class="score-card pre-score">
+                        <span>الاختبار القبلي</span>
+                        <strong>${preScore} <sub>/ ${maxScore}</sub></strong>
+                    </div>
+                    <div class="score-arrow"><i class="fas fa-arrow-left"></i></div>
+                    <div class="score-card post-score">
+                        <span>الاختبار البعدي</span>
+                        <strong>${totalScore} <sub>/ ${maxScore}</sub></strong>
+                    </div>
+                `;
+
+                document.getElementById('result-btn').innerHTML = 'مراجعة الموارد <i class="fas fa-redo"></i>';
+                updateJourney(4);
+            }
+        }
+
+        function unlockResources() {
+            document.getElementById('main-content').classList.remove('locked');
+        }
+
+        function closeResults() {
+            document.getElementById('assessment-section').style.display = 'none';
+            if (!isPostAssessment) updateJourney(3);
+        }
+
+        function updateJourney(step) {
+            document.querySelectorAll('.step').forEach((s, idx) => {
+                if (idx + 1 <= step) s.classList.add('active');
+            });
+        }
+
+        function resetQuiz(post = false) {
+            isPostAssessment = post;
+            currentQuestionIndex = 0;
+            totalScore = 0;
+            document.getElementById('assessment-section').style.display = 'block';
+            document.getElementById('quiz-intro').style.display = 'none';
+            document.getElementById('quiz-results').style.display = 'none';
+            document.getElementById('quiz-content').style.display = 'block';
+
+            if (post) {
+                document.getElementById('assessment-section').scrollIntoView({ behavior: 'smooth' });
+            }
+            showQuestion();
+        }
+
+        function openModal(type) {
+            const guide = guides[type];
+            document.getElementById('modal-body').innerHTML = `<h3>${guide.title}</h3>${guide.content}`;
+            document.getElementById('guide-modal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('guide-modal').style.display = 'none';
+        }
+
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Animation Logic
+        const initAnimations = () => {
+            const reveals = document.querySelectorAll('.reveal');
+
+            if (!window.IntersectionObserver) {
+                reveals.forEach(el => el.classList.add('active'));
+                return;
+            }
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            reveals.forEach(el => {
+                observer.observe(el);
+                // Trigger immediately if already visible
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight) {
+                    el.classList.add('active');
+                }
+            });
+        };
+
+        // Run when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initAnimations);
+        } else {
+            initAnimations();
+        }
+
+        // Backup: Show everything after 3 seconds if still hidden
+        setTimeout(() => {
+            document.querySelectorAll('.reveal:not(.active)').forEach(el => {
+                el.classList.add('active');
+            });
+        }, 3000);
+    </script>
+
+</body>
+
+</html>
