@@ -12,20 +12,21 @@ Empowering families with the tools and knowledge for effective self-advocacy. Th
 
 ### 📝 Interactive Pre-Post Assessment
 A core feature designed to track user progress:
-- **Pre-Assessment**: Evaluates baseline knowledge and confidence before accessing resources.
+- **Pre-Assessment**: Evaluates baseline knowledge with simplified, family-friendly questions.
 - **Content Unlocking**: Resources are securely "locked" until the pre-assessment is completed.
 - **Post-Assessment**: Allows users to re-evaluate their learning after engaging with the materials.
 - **Progress Tracking**: Real-time scoring and improvement metrics.
 
-### 📚 Resource Hub
-- **Instructional Video**: Direct access to guided walkthroughs.
+### 📚 Resource Hub & Goal Achievement
+- **24/7 Digital Accessibility**: Continuous access to support, breaking the isolation barrier.
+- **Concise Video Guide**: A direct, short video on how to deal with a schizophrenia patient.
+- **Quick Interventions**: Practical guidance cards for managing hallucinations and crises.
 - **PDF Toolkit**: Comprehensive downloadable materials for offline support.
-- **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewing.
 
 ### 💎 Premium Aesthetic
 - **Glassmorphism UI**: Modern, translucent interface with backdrop-blur effects.
 - **Fluid Animations**: Smooth transitions and entrance animations.
-- **Bilingual Support**: Integrated English and Arabic content for wider accessibility.
+- **Arabic-First Support**: Fully localized to fit the target audience.
 
 ---
 
